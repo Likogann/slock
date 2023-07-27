@@ -10,3 +10,8 @@ static const char *colorname[NUMCOLS] = {
 
 /* treat a cleared input like a wrong password (color) */
 static const int failonclear = 1;
+
+/* Slock default message */
+static const char * message = "Suckless: Software that sucks less.";
+static const char * text_color = "#ffffff";
+static const char * font_name = "6x10";
